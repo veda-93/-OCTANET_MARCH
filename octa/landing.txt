@@ -1,0 +1,77 @@
+<DOCTYPE html>
+<html>
+<head>
+    <title>TIMEX WATCHES</title>
+    <link rel="stylesheet" type="text/css" href="landingpage.css">
+</head>    
+<body>
+        <header id="header">
+            <div class="timex-logo">
+                <img id="header-img"src="https://i.postimg.cc/L5WTG8TT/watch.png"  alt="logo">
+            </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#ourbrand">Our brand</a>
+                    </li>
+                    <li><a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li><a class="nav-link" href="#products">Products</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        
+        
+<div class="main">
+           <div class="litlemain"> 
+        <section class="form">
+            <h3 class="register">REGISTER TO OUR NEWSLETTER</h3>
+            <form id="form" action="https://www.freecodecamp.org/email-submit">
+            <input name="email" id="email" type="email" placeholder="Enter your email adress" required>
+            <input id="submit" type="submit" value="Subscribe">
+            </form>
+        </section>
+        <div>
+            <section id="ourbrand">
+                <h3>OUR BRAND</h3>
+                <div class="iframe-container">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/6yZ29wHVJJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>          
+                
+            </section>
+            <section id="features">
+                <h3>BEST MATERIALS</h3>
+                    <p>Our watches are made with the finest materials to ensure the best quality.</p>
+                <h3>SOLAR POWERED</h3>
+                    <p>Our watches are solar powered for the longest longetivity. You'll never run out of time.</p>
+                <h3>BUDGET</h3>
+                    <p>The best products at the best price. Affordable for everyone.</p>
+            </section>
+            <section id="products">
+                <div class="flex-container">
+                    <div class="watch">
+                        <img id="cheap" src="https://i.postimg.cc/5tx7mgZR/cheap.jpg">
+                        <p>Expedition Scout 40mm Fabric Strap Watch.</p>
+                        <h4>85$</h4>
+                    </div>
+                    <div class="watch">
+                        <img src="https://i.postimg.cc/gcCr87kJ/middle.jpg">
+                        <p>Waterbury Classic 40mm Leather Strap Watch.</p>
+                        <h4>299$</h4>
+                    </div>
+                    <div class="watch">
+                        <img src="https://i.postimg.cc/7PGfC44d/expensive.jpg">
+                        <p>American Document 41mm Leather Strap Watch.</p>
+                        <h4>650$</h4>
+                    </div>
+                </div>
+            </section>
+        </div>
+  </div>
+</div>
+    <footer id="footer">
+        <p>&copy;2023 <a style="color:#fff" href="https://martinruscade.com">Martin Ruscade</a></p>
+        <p>Created for freeCodeCamp</p>
+    </footer>
+</body>    
+</html>
